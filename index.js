@@ -1,9 +1,9 @@
 // index.js
-const HaloGeneric = require('./haloGeneric');
+const DataGeneric = require('./dataGeneric');
 
 function main() {
-    const halo = new HaloGeneric();
-    halo.SapaUser("Zivan"); // Ganti dengan nama panggilan kamu
+    const data = new DataGeneric("2211104039"); // NIM kamu
+    data.PrintData();
 }
 
 main();
